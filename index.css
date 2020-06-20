@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica, sans-serif;
+}
+
+button {
+    background-color: #727b84;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.contenedorPrincipal {
+    position: relative;
+}
+
+.contenedorEnlaces {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 120px;
+    border-radius: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: #007aff;
+    color: white;
+}
+
+.apareceContenedorEnlaces {
+    display: block;
+    margin-top: 2px;
+}
