@@ -2,7 +2,7 @@ function dropdown() {
     let boton = document.querySelector("button");
     let cajaEnlaces = document.querySelector(".contenedorEnlaces");
 
-    boton.addEventListener("click", () => {
+    boton.addEventListener("mouseover", () => {
         cajaEnlaces.classList.toggle("apareceContenedorEnlaces");
     });
 };
